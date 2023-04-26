@@ -61,7 +61,7 @@ function Data(props) {
       resultData.map((data,index)=>{ 
         return (
         <tr>
-        <th scope="row">{index}</th>
+        <th scope="row">{index+1}</th>
         <td>{data.first_name}</td>
         <td>{data.last_name}</td>
         <td>{data.email}</td>
