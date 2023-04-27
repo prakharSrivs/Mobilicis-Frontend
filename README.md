@@ -1,5 +1,5 @@
-# Frontend Readme
-This is the readme file for the frontend of an internship assignment. The frontend comprises of two pages - Home page and Results page.
+# Frontend Readme for the Internship assignment 
+This is the readme file for the frontend of the internship assignment. The frontend comprises of two pages - Home page and Results page.
 
 ## Pages
 ### Home Page
@@ -25,3 +25,5 @@ To run the application, follow these steps:
 2.Install the dependencies using npm install
 3. Run the application using npm start
 
+# [Backend Repo](https://github.com/prakharsrivs](https://github.com/prakharSrivs/Mobilicis-Backend)
+# [Backend URL ](https://mobilicisassignmentbackend-536c.onrender.com)
