@@ -25,5 +25,5 @@ To run the application, follow these steps:
 2.Install the dependencies using npm install
 3. Run the application using npm start
 
-# [Backend Repo](https://github.com/prakharsrivs](https://github.com/prakharSrivs/Mobilicis-Backend)
+# [Backend Repo](https://github.com/prakharSrivs/Mobilicis-Backend)
 # [Backend URL ](https://mobilicisassignmentbackend-536c.onrender.com)
