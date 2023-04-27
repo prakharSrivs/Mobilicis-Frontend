@@ -9,6 +9,7 @@ function Data(props) {
     const fetchData = async()=>{
       axios.get('https://mobilicisassignmentbackend-536c.onrender.com/assignment/'+id)
       .then(function (response) {
+        localStorage.setItem("assignment"+id,response.data)
         setResultData(response.data)
       })
       .catch(function (error) {
