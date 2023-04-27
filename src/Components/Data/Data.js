@@ -9,7 +9,6 @@ function Data(props) {
     const fetchData = async()=>{
       axios.get('https://mobilicisassignmentbackend-536c.onrender.com/assignment/'+id)
       .then(function (response) {
-        console.log(response);
         setResultData(response.data)
       })
       .catch(function (error) {
@@ -21,7 +20,6 @@ function Data(props) {
     }
     fetchData()
   },[])
-  console.log(id)
   if(resultData.length==0)
   return (
       <div id='preloader'>
@@ -38,7 +36,6 @@ function Data(props) {
       </div>
       </div>
   )
-  console.log(resultData)
   return (
     <div>
     <table className="table table-striped table-dark">
@@ -60,7 +57,7 @@ function Data(props) {
     {
       resultData.map((data,index)=>{ 
         return (
-        <tr>
+        <tr key={index}>
         <th scope="row">{index+1}</th>
         <td>{data.first_name}</td>
         <td>{data.last_name}</td>
